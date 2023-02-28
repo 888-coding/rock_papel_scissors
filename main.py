@@ -27,3 +27,13 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
+print("Welcome to Rock Papel Scissors\n")
+mychoice = int(input("Choose your option : 0 - rock , 1 - papel, 2 - scissors\n"))
+
+if mychoice == 0 :
+    print(rock)
+elif mychoice == 1 :
+    print(paper)
+else :
+    print(scissors)
