@@ -50,5 +50,23 @@ elif computer_choice == 1 :
 else :
     print(scissors)
 
+
+#Conditions for Win or lose 
 if mychoice == computer_choice :
     print("You and the computer is draw")
+elif mychoice == 0 :
+    if computer_choice == 1:
+        print("You lose")
+    else :
+        print("You win")
+elif mychoice == 1 :
+    if computer_choice == 0 :
+        print("You win")
+    else: 
+        print("You lose")
+elif mychoice == 2 :
+    if computer_choice == 0 :
+        print("You lose")
+    else :
+        print("You win")
+
