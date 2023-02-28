@@ -33,23 +33,13 @@ scissors = '''
 print("Welcome to Rock Papel Scissors\n")
 mychoice = int(input("Choose your option : 0 - rock , 1 - papel, 2 - scissors\n"))
 
+game_image = [rock, paper, scissors]
 print("My choice is:")
-if mychoice == 0 :
-    print(rock)
-elif mychoice == 1 :
-    print(paper)
-else :
-    print(scissors)
+print(game_image[mychoice])
 
-print("The computer choise is : \n")
+print("The computer choise is :")
 computer_choice = random.randint(0,2)
-if computer_choice == 0 :
-    print(rock)
-elif computer_choice == 1 :
-    print(paper)
-else :
-    print(scissors)
-
+print(game_image[computer_choice])
 
 #Conditions for Win or lose 
 if mychoice == computer_choice :
